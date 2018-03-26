@@ -1,3 +1,11 @@
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: inherit;
+}
+
 .top {
   display: flex;
   height: 64px;
@@ -40,7 +48,7 @@ nav h3 {
   display: none;
 }
 
-@media only screen and (max-width: 510px) {
+@media only screen and (max-width: 520px) {
   .symbols {
     display: flex;
     width: 100%;
